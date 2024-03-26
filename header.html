@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Site E-Commerce</title>
+    <!-- Styles CSS (à inclure dans votre projet) -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
+    
+    <style>
+        /* Styles pour le header */
+        .site-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background-color: green;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .logo img {
+            max-width: 100px;
+            height: auto;
+        }
+
+        .search-bar input[type="text"] {
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        .search-bar button {
+            background-color: brown;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            padding: 8px 12px;
+            cursor: pointer;
+        }
+
+        .user-actions a {
+            margin-left: 20px;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="site-header">
+        <!-- Logo -->
+        <div class="logo">
+            <a href="index.html">
+                <img src="./images/Conception graphique/Design system/trek camper.png" alt="Logo de la boutique">
+            </a>
+        </div>
+        <!-- Barre de recherche -->
+        <div class="search-bar">
+            <input type="text" placeholder="Rechercher un produit...">
+            <button type="submit">Rechercher</button>
+        </div>
+        <!-- Fonction compte et panier -->
+        <div class="user-actions">
+            <a href="mon-compte.html">Mon Compte</a>
+            <a href="panier.html">Panier (3)</a> <!-- Remplacez le nombre par le nombre d'articles dans le panier -->
+        </div>
+    </header>
+
+    <!-- ... -->
+    
+</body>
+</html>

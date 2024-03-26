@@ -1,0 +1,45 @@
+.bouton{
+    font-weight: bold;
+    
+}
+
+#formulaire {
+    background-image:linear-gradient(rgba(35, 90, 33, 0.6), rgb(243, 242, 155, 0.5)),
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+.container {
+    max-width: 400px;
+    margin: 150px auto;
+    padding: 20px;
+    background-color: #307622;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+input[type="text"], input[type="password"] {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: rgba(9, 172, 4, 0.6);
+    color: #ffffff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background-color: rgba(7, 207, 0, 0.6);
+}
+
+h2 {
+text-align: center;
+}
+

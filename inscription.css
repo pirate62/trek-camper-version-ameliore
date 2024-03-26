@@ -1,0 +1,12 @@
+#formulaire {
+    background-image:linear-gradient(rgba(35, 90, 33, 0.6), rgb(243, 242, 155, 0.5)),
+}
+
+label {
+    text-align: center;
+}
+
+.form-label {
+    text-align: center;
+}
+
